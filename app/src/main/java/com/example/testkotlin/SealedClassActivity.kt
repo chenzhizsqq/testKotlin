@@ -34,7 +34,11 @@ sealed class Mathematics {
         is Dou -> {
             m.number
         }
-        is Sub -> eval(m.e1) - eval(m.e2)
-        NotANumber -> Double.NaN
+        is Sub -> {
+            eval(m.e1) - eval(m.e2)
+        }
+        is NotANumber -> {
+            Double.NaN
+        }
     }
 }

@@ -21,7 +21,7 @@ tools:context=".MainActivity">
         android:padding="20dp"
         android:textSize="20sp"
         android:background="@drawable/back"
-        android:text="Sealed Class:密封(Sealed)类" />
+        android:text="Sealed Class:密封(Sealed)类。其实就是enum 的class表示方式" />
 
     <TextView
         android:id="@+id/AbstractClassActivity"
