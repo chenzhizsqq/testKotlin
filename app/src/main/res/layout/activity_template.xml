@@ -20,42 +20,42 @@ tools:context=".TemplateActivity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="普通泛型的例子" />
+        android:text="普通泛型的例子（T） T可以为Void" />
 
     <Button
         android:id="@+id/addNumbersTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="泛型函数" />
+        android:text="泛型函数 T可以为Void" />
 
     <Button
         android:id="@+id/test2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="泛型函数_函数内指定返回的类型" />
+        android:text="泛型（T）函数_返回为指定类型的函数" />
 
     <Button
         android:id="@+id/test3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="泛型函数_函数内指定返回的类型_函数内" />
+        android:text="泛型（T）函数_函数内指定返回的类型_函数内" />
 
     <Button
         android:id="@+id/test_any"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="泛型函数_any" />
+        android:text="泛型函数 Any" />
 
     <Button
         android:id="@+id/checkStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="函数内判断类型" />
+        android:text="函数内判断类型 Any" />
 
 
 </LinearLayout>

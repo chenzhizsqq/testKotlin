@@ -39,7 +39,7 @@ tools:context=".MainActivity">
         android:padding="20dp"
         android:textSize="20sp"
         android:background="@drawable/back"
-        android:text="Template:泛型" />
+        android:text="Template:泛型 T 和 Any" />
 
 
 
