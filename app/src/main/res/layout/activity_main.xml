@@ -41,6 +41,15 @@ tools:context=".MainActivity">
         android:background="@drawable/back"
         android:text="Template:泛型 T 和 Any" />
 
+    <TextView
+        android:id="@+id/OpenActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/back"
+        android:text="Open类的使用" />
+
 
 
 

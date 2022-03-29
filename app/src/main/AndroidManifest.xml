@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestKotlin">
         <activity
+            android:name=".OpenActivity"
+            android:exported="false" />
+        <activity
             android:name=".TemplateActivity"
             android:exported="true" />
         <activity

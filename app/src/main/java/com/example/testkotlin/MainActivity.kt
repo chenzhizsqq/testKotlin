@@ -30,6 +30,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.OpenActivity.setOnClickListener {
+            val intent =
+                Intent(this@MainActivity, OpenActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
